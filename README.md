@@ -1,4 +1,3 @@
-IOS Calculator
 
 [Click me!]( https://kaplanh.github.io/IOS-Calculator/)
 
