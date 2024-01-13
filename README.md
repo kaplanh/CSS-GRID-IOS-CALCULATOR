@@ -78,6 +78,20 @@ Build a Calculator that is functionally similar to this: [Calculator]( https://c
 - Step 4: Push your application into your own public repo on Github
 
 - Step 5: Deploy your application on Github template to showcase your app within your team.
+- 
+## Display Grid ile yapılmış Site Örnekleri
+
+http://www.friezedesign.co.uk/
+
+https://murdershewrote.co.uk/
+
+http://grundini.com/
+
+http://grundini.com/
+
+# CSS Grid ile ilgili güzel bir kaynak
+
+https://www.quackit.com/html/templates/css_grid_templates.cfm
 
 
 <center> ⌛ Happy Coding  ✍ </center>
