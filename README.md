@@ -33,6 +33,10 @@
   - Opacity / Transparency
 
 - JS
+  - DOM manipulation
+  - e.target.classList.contains('className')
+  - conditions (if, switch - case) 
+  - includes('.') (array method)
 
 - ### At the end of the project, developers will be able to;
 
