@@ -63,5 +63,3 @@ https://www.quackit.com/html/templates/css_grid_templates.cfm
 
 <center> ⌛ Happy Coding  ✍ </center>
 
-
-<center> ⌛ Happy Coding  ✍ </center>
