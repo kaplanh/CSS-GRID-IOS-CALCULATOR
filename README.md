@@ -61,5 +61,5 @@ http://grundini.com/
 https://www.quackit.com/html/templates/css_grid_templates.cfm
 
 
-<center style="text-align:'center'"> ⌛ Happy Coding  ✍ </center>
+<center style="text-align:center"> ⌛ Happy Coding  ✍ </center>
 
