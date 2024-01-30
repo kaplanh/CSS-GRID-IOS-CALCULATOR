@@ -60,29 +60,30 @@ btnContainer.addEventListener('click', (e) => {
 });
 
 const appendNumber = (num) => {
-  //? Eger onceden 0 girilmisse ve tekrardan 0 girilise geri don
-  if (currOperand === '0' && num === '0') return;
+    //? Eger onceden 0 girilmisse ve tekrardan 0 girilise geri don
+    // ? asagidaki return ifadesi ile fonksiyondan erken çıkılmasını sağlar. Eğer if koşulu doğruysa (yani hem currOperand hem de num '0' ise), fonksiyon daha fazla işlem yapmadan sonlanır. Bu genellikle, istenmeyen veya gereksiz bir işlemin önlenmesi için kullanılır.
+    if (currOperand === "0" && num === "0") return;
 
-  //? Eğer ilk olarak 0 girilmisse ve sonrasinda da . haricinde baska
-  //? bir sayi girilmis ise sadece girilen yeni sayiyi degiskene aktar.
-  //? Orn: 09 => 9 , 03 => 3 , 0.1 => 0.1
-  if (currOperand === '0' && num !== '.') {
-    currOperand = num;
-    return;
-  }
+    //? Eğer ilk olarak 0 girilmisse ve sonrasinda da . haricinde baska
+    //? bir sayi girilmis ise sadece girilen yeni sayiyi degiskene aktar.
+    //? Orn: 09 => 9 , 03 => 3 , 0.1 => 0.1
+    if (currOperand === "0" && num !== ".") {
+        currOperand = num;
+        return;
+    }
 
-  //? Eğer şu anki sayi . ise ve önceki girilen sayi . iceriyorsa geri don
-  if (num === '.' && currOperand.includes('.')) return;
+    //? Eğer şu anki sayi . ise ve önceki girilen sayi . iceriyorsa geri don
+    if (num === "." && currOperand.includes(".")) return;
 
-  if (currOperand.length > 10) return;
+    if (currOperand.length > 10) return;
 
-  if (equalOrPercentPressed) {
-    currOperand = num;
-    equalOrPercentPressed = false;
-    return;
-  }
-  //? Girilen sayilari birlestir.
-  currOperand += num;
+    if (equalOrPercentPressed) {
+        currOperand = num;
+        equalOrPercentPressed = false;
+        return;
+    }
+    //? Girilen sayilari birlestir.
+    currOperand += num;
 };
 
 const updateDisplay = () => {
